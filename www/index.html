@@ -32,16 +32,32 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <link type="text/css" rel="stylesheet" href="css/spectre.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/index.css">
+        <title>SCTCE Unofficial Attendance App Lite</title>
     </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+    <body class="full-height">
+        <div class="columns full-height login-container">
+            <div class="column col-12">
+                <div class="card">
+                    <div class="card-header">
+                      <div class="card-title h5">Login</div>
+                      <div class="card-subtitle text-gray">Enter your etlab username and password</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                        <label class="form-label" for="input-example-1">Register Number</label>
+                        <input class="form-input" type="text" id="input-example-1" placeholder="Enter you etlab username">
+                        <label class="form-label" for="input-example-1">Password</label>
+                        <input class="form-input" type="password" id="input-example-1" placeholder="Enter your password">
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn-primary">login</button>
+                    </div>
+                  </div>
             </div>
+          </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
