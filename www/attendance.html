@@ -28,19 +28,37 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src* 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link type="text/css" rel="stylesheet" href="css/spectre.min.css"  media="screen,projection"/>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/attendance.css">
         <title>SCTCE Unofficial Attendance App Lite</title>
     </head>
     <body class="full-height">
-        hey
         <div id="user"></div>
         <div id="password"></div>
-        <button class="btn btn-primary" id="clear">Log Out</button>
+        <div class="column col-12">
+            <div class="panel">
+                <div class="loading loading-lg" id="loading"></div>
+              <div class="panel-header text-center">
+                <div class="panel-title h5 mt-10" id="name">Loading</div>
+                <div class="panel-subtitle" id="details">Getting Attendance Data, Please Wait.</div>
+              </div>
+              <nav class="panel-nav">
+                <ul class="tab tab-block">
+                  <li class="tab-item active"><a href="#panels" id="overall">Thanks for using our unofficial app lite ;)</a></li>
+                </ul>
+              </nav>
+              <div class="panel-body" id="holder">
+                
+              </div>
+              <div class="panel-footer">
+                <button class="btn btn-primary btn-block" id="clear">Log Out</button>
+              </div>
+            </div>
+          </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/attendance.js"></script>
     </body>
