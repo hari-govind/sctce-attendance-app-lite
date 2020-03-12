@@ -20,7 +20,6 @@ var controller = {
         })
     },
     renderAttendance: function(attendance) {
-        console.log(attendance)
         let username = attendance['Student']['Name'];
         let register_num = attendance['Student']['Branch']
         let overall = attendance['Overall']
@@ -51,7 +50,11 @@ var controller = {
     }
 }
 const login = document.getElementById("clear");
+const refresh = document.getElementById("refresh");
 login.addEventListener('click', controller.clearLogin);
+refresh.addEventListener('click', () => {
+    location.reload();
+})
 controller.getAttendanceData()
     .then(res => { return res.json() })
     .then(attendance => controller.renderAttendance(attendance))

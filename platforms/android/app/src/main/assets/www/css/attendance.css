@@ -13,3 +13,7 @@ html {
 .panel {
     height: 100vh;
 }
+
+#refresh {
+    margin-left: 0.5em;
+}
