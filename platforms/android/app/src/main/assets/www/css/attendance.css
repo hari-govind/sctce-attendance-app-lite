@@ -1,0 +1,15 @@
+html {
+    overflow: hidden;
+    margin: 0;
+}
+.column {
+    padding: 0;
+    height:100vh;
+}
+.card {
+    border: none;
+    height: 100vh;
+}
+.panel {
+    height: 100vh;
+}

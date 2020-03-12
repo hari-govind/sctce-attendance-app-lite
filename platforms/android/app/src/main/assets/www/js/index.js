@@ -17,7 +17,7 @@
  * under the License.
  */
 
-const url = 'http://localhost:8080/';
+const url = 'https://lite.harigovind.org/';
 
 var app = {
     // Application Constructor
