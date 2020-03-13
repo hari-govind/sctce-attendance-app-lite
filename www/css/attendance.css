@@ -1,6 +1,14 @@
 html {
     overflow: hidden;
     margin: 0;
+    background: #121212;
+    color: white;
+}
+body {
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 .column {
     padding: 0;
@@ -12,8 +20,36 @@ html {
 }
 .panel {
     height: 100vh;
+    background-color:  rgba(0,0,0,0.7);
 }
 
 #refresh {
     margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.btn-block {
+    background: rgba(255, 179, 4,0.5)!important;
+    border-color: #fdba2b!important;
+}
+
+.btn-block:hover {
+    background: rgba(255, 179, 4,0.7)!important;
+}
+
+.btn-link {
+    color: rgba(255, 179, 4,0.7)!important;
+    font-weight: bold;
+}
+
+.loading::after{
+    border-top-color: #fdba2b!important;
+    border-right-color: #fdba2b!important;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+#overall {
+    color: rgba(255, 179, 4,0.5)!important;
+    border-color: #fdba2b!important;
 }

@@ -20,4 +20,17 @@ body {
 
 #login-status {
     display: none;
+    background: rgba(232,86,0,.7);
+}
+.card {
+    background: rgba(0,0,0,0.7);
+    border:none;
+    color: white;
+}
+#login {
+    background: rgba(255, 179, 4,0.5)!important;
+    border-color: #fdba2b!important;
+}
+#login:hover {
+    background: rgba(255, 179, 4,0.7)!important;
 }
