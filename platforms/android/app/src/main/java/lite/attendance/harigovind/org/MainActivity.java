@@ -17,7 +17,7 @@
        under the License.
  */
 
-package lite.harigovind.org;
+package lite.attendance.harigovind.org;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
