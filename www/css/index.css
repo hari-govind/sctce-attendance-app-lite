@@ -28,12 +28,16 @@ body {
     color: white;
 }
 #login, #about {
-    background: rgba(255, 179, 4,0.5)!important;
-    border-color: #fdba2b!important;
+    background: rgba(255, 179, 4,0.5);
+    border-color: #fdba2b;
 }
 #login:hover, #about:hover {
-    background: rgba(255, 179, 4,0.7)!important;
+    background: rgba(255, 179, 4,0.7);
 }
 .col-9{
     padding-right: 0.4em;
+}
+
+#username:focus, #password:focus{
+   border-color: #fdba2b;
 }
