@@ -11,6 +11,7 @@
     <author email="hello@harigovind.org" href="http://github.com/hari-govind/">
         Hari Govind
     </author>
+    <icon src="res/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
