@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link type="text/css" rel="stylesheet" href="css/spectre.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/attendance.css">
+    <title>SCTCE Unofficial Attendance App Lite</title>
+</head>
+
+<body class="full-height">
+    <div class="column col-12">
+        <div class="panel">
+            <div class="panel-header text-center">
+                <div class="panel-title h5 mt-10" id="name">SCTCE Unofficial Attendance App Lite</div>
+                <div class="panel-subtitle" id="details">Lightweight Application to View Attendance</div>
+            </div>
+            <nav class="panel-nav">
+                <ul class="tab tab-block">
+                    <li class="tab-item active"><a href="#panels" id="overall">v0.0.1</a></li>
+                </ul>
+            </nav>
+            <div class="panel-body" id="holder">
+                Since you're here, consider joining our <a style="color:#fdba2b"
+                    href="https://t.me/joinchat/FZZ9sFFjCVmFRwVK1UZ7og">telegram group</a>!
+                <br><br>
+                How does it work?<br>
+                <ol>
+                    <li>You enter your register number and password to etlab. The app will store these data locally on
+                        your phone.</li>
+                    <li>For getting attendance data, this register number and password is send over a secure connection
+                        to our mediating server.
+                        Mediating Server is managed by us and it never logs username nor password.
+                    </li>
+                    <li>
+                        The mediating server will send the username and password to etlab and get necessary pages. The
+                        server will process these pages,
+                        extract necessary data, compresses it and then send it over to your app over secure connection.
+                    </li>
+                    <li>
+                        The app will render the attendance using recieved data.
+                    </li>
+                    <li>
+                        Steps 2-4 are repeated whenever you reopen the app. The heavy lifting(downloading full webpages,
+                        scraping and processing) is done by the mediating server, thus
+                        making the app lighter on memory and network.
+                    </li>
+                </ol>
+                <u>Source code</u><br>
+                <a style="color:#fdba2b" href="https://github.com/hari-govind/sctce-attendance-app-lite">Attendance App
+                    Lite</a> (Built using Apache Cordova) <br>
+                <a style="color:#fdba2b" href="https://github.com/hari-govind/sctce-attendance-lite-backend">Mediating
+                    Server</a> (Built using ExpressJS)
+                <br>
+                <u>Support</u><br>
+                Please join our telegram community, link above. We would love to have you there!
+                <br>
+                <u>License</u><br>
+                The app is licensed under Apache License 2.0<br>
+                The mediating server program is licensed under AGPL v3<br>
+                <br><br>
+                <span style="text-align: center; display:block">Thank you for your constant support!</span>
+            <div class="panel-footer">
+                <a href="./index.html"><button class="btn btn-primary btn-block" id="refresh">Back</button></a>
+            </div>
+        </div>
+    </div>
+</body>

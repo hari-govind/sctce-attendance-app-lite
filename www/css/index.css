@@ -27,10 +27,13 @@ body {
     border:none;
     color: white;
 }
-#login {
+#login, #about {
     background: rgba(255, 179, 4,0.5)!important;
     border-color: #fdba2b!important;
 }
-#login:hover {
+#login:hover, #about:hover {
     background: rgba(255, 179, 4,0.7)!important;
+}
+.col-9{
+    padding-right: 0.4em;
 }

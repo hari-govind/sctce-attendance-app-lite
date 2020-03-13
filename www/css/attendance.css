@@ -21,6 +21,7 @@ body {
 .panel {
     height: 100vh;
     background-color:  rgba(0,0,0,0.7);
+    border: none;
 }
 
 #refresh {
