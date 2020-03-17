@@ -3,8 +3,8 @@ A lightweight android application that scrapes attendance data from website and 
 Requires hosted backend to function: [https://github.com/hari-govind/sctce-attendance-lite-backend](https://github.com/hari-govind/sctce-attendance-lite-backend)
 ## Screenshots
 
-<img src="https://github.com/hari-govind/sctce-attendance-app-lite/blob/master/github_assets/login.jpg" alt="App login">
-<img src="https://github.com/hari-govind/sctce-attendance-app-lite/blob/master/github_assets/attendance_screen.jpg" alt="App Preview Attendance">
+<img src="https://github.com/hari-govind/sctce-attendance-app-lite/blob/master/github_assets/login.jpg" width="234px" height="415px" alt="App login">
+<img src="https://github.com/hari-govind/sctce-attendance-app-lite/blob/master/github_assets/attendance_screen.jpg" width="234px" height="415px" alt="App Preview Attendance">
 
 ## Credits
 Background image from [pxhere](https://pxhere.com/en/photo/1548817), public domain.
